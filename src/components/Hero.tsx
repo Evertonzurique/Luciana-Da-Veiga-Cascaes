@@ -1,11 +1,10 @@
 import { Instagram, MessageCircle } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import brandTitle from '../assets/images/logos/brand-title.png';
+import hero1 from '../assets/images/hero/hero1 copy copy.JPG';
 
 const heroImages = [
-  'https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  'https://images.pexels.com/photos/8111881/pexels-photo-8111881.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  'https://images.pexels.com/photos/5669603/pexels-photo-5669603.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  hero1,
 ];
 
 export default function Hero() {
@@ -45,15 +44,13 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-8 flex justify-center">
+        <div className="mb-12 flex justify-center">
           <img
             src={brandTitle}
             alt="Luciana da Veiga Cascaes - Advocacia"
-            className="h-32 sm:h-40 md:h-48 lg:h-56 w-auto object-contain animate-fade-in"
+            className="h-96 sm:h-[28rem] md:h-[36rem] lg:h-[42rem] w-auto object-contain animate-fade-in"
           />
         </div>
-
-        <div className="h-1 w-24 mx-auto bg-gold-gradient mb-8"></div>
 
         <p className="text-xl sm:text-2xl md:text-3xl text-neutral-light font-light mb-4">
           Especialista em Direito das Famílias e Sucessões
