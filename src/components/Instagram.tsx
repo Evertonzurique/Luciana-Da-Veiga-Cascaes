@@ -1,12 +1,14 @@
 import { Instagram as InstagramIcon, ExternalLink } from 'lucide-react';
+import div1 from '../assets/images/instagram/div1.JPG';
+import div2 from '../assets/images/instagram/div2.JPG';
 
 const instagramPosts = [
   {
-    image: 'https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: div1,
     caption: 'Dicas sobre direito de família',
   },
   {
-    image: 'https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: div2,
     caption: 'Planejamento sucessório',
   },
   {

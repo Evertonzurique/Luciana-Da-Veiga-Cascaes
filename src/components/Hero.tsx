@@ -1,5 +1,6 @@
-import { Instagram, MessageCircle, Scale } from 'lucide-react';
+import { Instagram, MessageCircle } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import brandTitle from '../assets/images/logos/brand-title.png';
 
 const heroImages = [
   'https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=1920',
@@ -44,18 +45,13 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-6 flex justify-center">
-          <div className="relative">
-            <Scale className="w-16 h-16 text-gold-400" strokeWidth={1.5} />
-            <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 text-gold-400 text-xs font-heading tracking-wider">
-              L + C
-            </div>
-          </div>
+        <div className="mb-8 flex justify-center">
+          <img
+            src={brandTitle}
+            alt="Luciana da Veiga Cascaes - Advocacia"
+            className="h-32 sm:h-40 md:h-48 lg:h-56 w-auto object-contain animate-fade-in"
+          />
         </div>
-
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading text-neutral-lighter mb-6 animate-fade-in">
-          Luciana da Veiga Cascaes
-        </h1>
 
         <div className="h-1 w-24 mx-auto bg-gold-gradient mb-8"></div>
 

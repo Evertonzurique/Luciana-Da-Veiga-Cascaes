@@ -1,4 +1,5 @@
-import { Scale, Mail, Phone, Instagram, MapPin } from 'lucide-react';
+import { Mail, Phone, Instagram, MapPin } from 'lucide-react';
+import logoLc from '../assets/images/logos/logo-lc.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -7,17 +8,26 @@ export default function Footer() {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="bg-primary-darker text-neutral-light">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <Scale className="w-8 h-8 text-gold-400" />
-              <div>
-                <p className="font-heading text-lg text-gold-400">L + C</p>
-              </div>
-            </div>
+            <button
+              onClick={scrollToTop}
+              className="flex items-center gap-3 mb-4 hover:opacity-80 transition-opacity"
+              aria-label="Voltar ao topo da página"
+            >
+              <img
+                src={logoLc}
+                alt="Logo Luciana Cascaes Advocacia"
+                className="h-12 w-auto object-contain"
+              />
+            </button>
             <p className="text-sm text-neutral-light/70 leading-relaxed">
               Advocacia humanizada especializada em Direito das Famílias e Sucessões
             </p>
