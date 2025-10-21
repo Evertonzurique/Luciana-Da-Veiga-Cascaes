@@ -1,7 +1,7 @@
 import { Instagram, MessageCircle } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import brandTitle from '../assets/images/logos/brand-title.png';
-import hero1 from '../assets/images/hero/hero1.jpg';
+import hero1 from '../assets/images/hero/hero1.JPG';
 import hero2 from '../assets/images/hero/hero2.jpg';
 import hero3 from '../assets/images/hero/hero3.jpg';
 

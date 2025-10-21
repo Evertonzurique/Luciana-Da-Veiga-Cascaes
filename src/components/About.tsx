@@ -8,7 +8,7 @@ export default function About() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/src/assets/images/about/about.JPG"
+                src="/src/assets/images/about/about.jpg"
                 alt="Advogada Luciana da Veiga Cascaes"
                 className="w-full h-[600px] object-cover"
               />
