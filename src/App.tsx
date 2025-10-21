@@ -7,6 +7,7 @@ import Instagram from './components/Instagram';
 import Footer from './components/Footer';
 
 function App() {
+  console.log('App component rendering');
   return (
     <div className="min-h-screen bg-white">
       <Hero />

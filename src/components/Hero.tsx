@@ -1,14 +1,15 @@
 import { Instagram, MessageCircle } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import brandTitle from '../assets/images/logos/brand-title.png';
-import hero1 from '../assets/images/hero/hero1.JPG?url';
-import hero2 from '../assets/images/hero/hero2.jpg?url';
-import hero3 from '../assets/images/hero/hero3.jpg?url';
+import hero1 from '../assets/images/hero/hero1.JPG';
+import hero2 from '../assets/images/hero/hero2.jpg';
+import hero3 from '../assets/images/hero/hero3.jpg';
 
 // Usa as imagens locais importadas diretamente
 const heroImages = [hero1, hero2, hero3];
 
 export default function Hero() {
+  console.log('Hero component rendering');
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {

@@ -1,5 +1,5 @@
 import { Heart, Shield, Users } from 'lucide-react';
-import aboutImage from '../assets/images/about/about.jpg?url';
+import aboutImage from '../assets/images/about/about.jpg';
 
 export default function About() {
   return (
