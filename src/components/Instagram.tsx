@@ -1,6 +1,7 @@
 import { Instagram as InstagramIcon, ExternalLink } from 'lucide-react';
 import div1 from '../assets/images/instagram/div1.JPG';
 import div2 from '../assets/images/instagram/div2.JPG';
+import div4 from '../assets/images/instagram/div4.JPG';
 
 const instagramPosts = [
   {
@@ -16,7 +17,7 @@ const instagramPosts = [
     caption: 'Orientação jurídica',
   },
   {
-    image: 'https://images.pexels.com/photos/8111764/pexels-photo-8111764.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: div4,
     caption: 'Casos de sucesso',
   },
 ];

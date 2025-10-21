@@ -1,12 +1,12 @@
 import { Instagram, MessageCircle } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import brandTitle from '../assets/images/logos/brand-title.png';
+import hero1 from '../assets/images/hero/hero1.jpg';
+import hero2 from '../assets/images/hero/hero2.jpg';
+import hero3 from '../assets/images/hero/hero3.jpg';
 
-const heroImages = [
-  'https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  'https://images.pexels.com/photos/8111881/pexels-photo-8111881.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  'https://images.pexels.com/photos/5669603/pexels-photo-5669603.jpeg?auto=compress&cs=tinysrgb&w=1920',
-];
+// Usa as imagens locais importadas diretamente
+const heroImages = [hero1, hero2, hero3];
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -45,13 +45,13 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-8 flex justify-center">
+        <h1 className="mb-8 flex justify-center">
           <img
             src={brandTitle}
             alt="Luciana da Veiga Cascaes - Advocacia"
             className="h-32 sm:h-40 md:h-48 lg:h-56 w-auto object-contain animate-fade-in"
           />
-        </div>
+        </h1>
 
         <div className="h-1 w-24 mx-auto bg-gold-gradient mb-8"></div>
 
