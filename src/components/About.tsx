@@ -1,4 +1,5 @@
 import { Heart, Shield, Users } from 'lucide-react';
+import aboutImage from '../assets/images/about/about.jpg?url';
 
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/src/assets/images/about/about.jpg"
+                src={aboutImage}
                 alt="Advogada Luciana da Veiga Cascaes"
                 className="w-full h-[600px] object-cover"
               />

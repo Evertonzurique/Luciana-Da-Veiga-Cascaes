@@ -1,7 +1,7 @@
 import { Instagram as InstagramIcon, ExternalLink } from 'lucide-react';
-import div1 from '../assets/images/instagram/div1.JPG';
-import div2 from '../assets/images/instagram/div2.JPG';
-import div4 from '../assets/images/instagram/div4.jpg';
+import div1 from '../assets/images/instagram/div1.JPG?url';
+import div2 from '../assets/images/instagram/div2.JPG?url';
+import div4 from '../assets/images/instagram/div4.jpg?url';
 
 const instagramPosts = [
   {
