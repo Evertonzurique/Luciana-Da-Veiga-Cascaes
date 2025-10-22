@@ -1,6 +1,6 @@
 import { Instagram, MessageCircle } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import brandTitle from '../assets/images/logos/brand-title.png';
+import brandTitle from '../assets/images/logos/logo-lc.png';
 // Import das imagens com tratamento de erro
 import hero1Img from '../assets/images/hero/hero1.JPG';
 import hero2Img from '../assets/images/hero/hero2.jpg';
