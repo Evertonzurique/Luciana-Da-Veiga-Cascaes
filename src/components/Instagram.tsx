@@ -1,7 +1,13 @@
 import { Instagram as InstagramIcon, ExternalLink } from 'lucide-react';
-import div1 from '../assets/images/instagram/div1.JPG';
-import div2 from '../assets/images/instagram/div2.JPG';
-import div4 from '../assets/images/instagram/div4.jpg';
+// Import das imagens com tratamento de erro
+import div1Img from '../assets/images/instagram/div1.JPG';
+import div2Img from '../assets/images/instagram/div2.JPG';
+import div4Img from '../assets/images/instagram/div4.jpg';
+
+// Fallback para caso de erro
+const div1 = div1Img || '/src/assets/images/instagram/div1.JPG';
+const div2 = div2Img || '/src/assets/images/instagram/div2.JPG';
+const div4 = div4Img || '/src/assets/images/instagram/div4.jpg';
 
 const instagramPosts = [
   {

@@ -1,5 +1,9 @@
 import { Heart, Shield, Users } from 'lucide-react';
-import aboutImage from '../assets/images/about/about.jpg';
+// Import da imagem com tratamento de erro
+import aboutImg from '../assets/images/about/about.jpg';
+
+// Fallback para caso de erro
+const aboutImage = aboutImg || '/src/assets/images/about/about.jpg';
 
 export default function About() {
   return (

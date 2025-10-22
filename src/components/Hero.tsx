@@ -1,9 +1,15 @@
 import { Instagram, MessageCircle } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import brandTitle from '../assets/images/logos/brand-title.png';
-import hero1 from '../assets/images/hero/hero1.JPG';
-import hero2 from '../assets/images/hero/hero2.jpg';
-import hero3 from '../assets/images/hero/hero3.jpg';
+// Import das imagens com tratamento de erro
+import hero1Img from '../assets/images/hero/hero1.JPG';
+import hero2Img from '../assets/images/hero/hero2.jpg';
+import hero3Img from '../assets/images/hero/hero3.jpg';
+
+// Fallback para caso de erro
+const hero1 = hero1Img || '/src/assets/images/hero/hero1.JPG';
+const hero2 = hero2Img || '/src/assets/images/hero/hero2.jpg';
+const hero3 = hero3Img || '/src/assets/images/hero/hero3.jpg';
 
 // Usa as imagens locais importadas diretamente
 const heroImages = [hero1, hero2, hero3];
